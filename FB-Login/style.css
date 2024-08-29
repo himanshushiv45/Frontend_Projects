@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: rgb(244, 235, 235);
+}
+
+.heading > h1 {
+  padding: 8px;
+  color: rgb(78, 78, 161);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+  
+}
+.container {
+  width: 430px;
+  margin: 0 auto;
+  padding: 18px 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+}
+.container h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: black;
+}
+.p1 {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 6px;
+  text-align: center;
+}
+hr {
+  color: rgb(250, 249, 249);
+  width: 50%;
+  margin: auto;
+}
+/* form - styling */
+.form {
+  margin-top: 6px;
+}
+form {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+  padding: 15px;
+}
+
+.inp {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(203, 199, 199);
+  border-radius: 6px;
+  outline: none;
+}
+.password,
+.email-num {
+  grid-column: 1 / span 2;
+}
+
+#date-sec,
+#gender-sec {
+  grid-column: 1 / span 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+#gender-sec {
+  grid-column: 1 / span 3;
+}
+#gender-sec div {
+  display: flex;
+  justify-content: space-between;
+}
+h6 {
+  font-size: 12px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+.form-para {
+  grid-column: 1 / span 3;
+  color: gray;
+}
+.para1 {
+  font-size: 11px;
+  font-weight: 100;
+  text-align: left;
+}
+.para2 {
+  font-size: 11px;
+  font-weight: 100;
+  text-align: left;
+
+  letter-spacing: 0.3px;
+  line-height: 15px;
+  margin: 4px 0;
+}
+.form-btn {
+  grid-column: 1 / span 3;
+  display: block;
+  margin: auto;
+}
+.btn {
+  width: 175px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: rgb(94, 104, 36);
+  display: grid;
+  place-items: center;
+}
+.form-para {
+  grid-column: 1 / span 3;
+  text-align: center;
+
+  
+}
+.btn-para>a{
+  font-size: 15px;
+  text-decoration: none;
+}

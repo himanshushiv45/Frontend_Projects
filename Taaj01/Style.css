@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+    url("./Img/taaj.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  background-position: center;
+}
+/* ------------------------------------------------ */
+
+nav {
+  width: 100%;
+  height: 12vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.logo {
+  width: 25%;
+  text-align: center;
+}
+.menu {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+li {
+  margin-right: 58px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+/* ---------------------------------------------- */
+main {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+section h3 {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px black;
+  text-transform: capitalize;
+}
+
+section h1 {
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+  margin: 30px 0 20px 0; /*trbl*/
+}
+section p {
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px black;
+  word-spacing: 2px;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+section a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 14px;
+  border-radius: 4px;
+  outline: none;
+
+  transition: all 0.5s ease;
+}
+.btn1 {
+  background: #5291b5;
+  color: #fff;
+}
+.btn1:hover {
+  background: #64be3a;
+  color: #fff;
+}
+.btn2 {
+  background: #6b7838;
+  color: #fff;
+}
+.btn2:hover {
+  background: #51e90a;
+  color: #fff;
+}
+
+.change-content:after {
+  content: "";
+  animation: changetext 10s linear infinite;
+  color: #849db9;
+}
+@keyframes changetext {
+  0% {
+    content: "GOA";
+  }
+  15% {
+    content: "Agra";
+  }
+  30% {
+    content: "Delhi";
+  }
+  45% {
+    content: "Mumbai";
+  }
+  60% {
+    content: "Jaipur";
+  }
+  75% {
+    content: "Indore";
+  }
+  85% {
+    content: "Ujjain";
+  }
+  100% {
+    content: "Gujrat";
+  }
+}
